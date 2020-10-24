@@ -1,0 +1,203 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* dodati ovo da bi slika bila preko celog ekrana  */
+body, html {
+    background-color: rgb(37, 37, 37);
+    height: 100%;
+    margin: 0;
+  }
+p,h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.img1{
+    position: relative;
+    /*
+    background-image: url("/img/11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100%;
+    */
+    height: 100%;
+}
+.img1::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(/img/11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(50%);
+  }
+
+
+.img1 p{
+    position:relative;
+    width:400px;
+    margin: auto;
+    padding:1rem;
+    background-color:rgb(36, 36, 36);
+    color:white;
+    font-size:2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text1{
+    padding-top:25rem;
+}
+.section1,.section2,.section3{
+    width:90%;
+    margin:auto;
+    line-height: 25px;
+}
+.img2 p{
+    width:480px;
+    margin: auto;
+    padding:1rem;
+    color:white;
+    font-size:1.8rem;
+    letter-spacing: 0.7rem;
+
+}
+.img2{
+    position: sticky;
+    top: 0;
+    background-image: url("/img/23.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40%;
+}
+.text2{
+    padding-top:7rem;
+}
+.section1 h2,.section2 h2,.section3 h2{
+    margin-top:3rem;
+    margin-bottom: 1.5rem;
+}
+.section2 p,.section3 p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.img3{
+    position: sticky;
+    top: 0;
+    background-image: url("/img/33.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40%;
+}
+.img3 p{
+    width:480px;
+    margin: auto;
+    padding:1rem;
+    color:white;
+    font-size:1.6rem;
+    letter-spacing: 0.7rem;
+
+}
+.img4{
+    position: relative;
+    height:100%;
+    /*
+    background-image: url("/img/11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100%;
+    */
+}
+
+.img4::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(/img/11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(50%);
+  }
+
+.img4 p{
+    position: relative;
+    width:400px;
+    margin: auto;
+    padding:1rem;
+    background-color:rgb(36, 36, 36);
+    color:white;
+    font-size:2rem;
+}
+.text1{
+    padding-top:25rem;
+}
+.section2,.section3{
+    color:rgb(223, 223, 223);
+}
+.first{
+    padding-top:1rem;
+    font-size: 1.2rem;
+    padding-bottom:2rem;
+    background-color:white;
+}
+.img2 p,.img3 p{
+    text-shadow: 1px 0px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .section1,.section2,.section3{
+        width:70%;
+        margin:auto;
+        line-height: 25px;
+        padding:3rem 0rem;
+    }
+  }
+
+
+
+
+
+
